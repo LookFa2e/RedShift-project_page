@@ -49,5 +49,5 @@ app.use(
 app.use(notFound);
 app.use(errorHandler); 
 
-const PORT = process.env.PORT ;
+const PORT = process.env.PORT;
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));

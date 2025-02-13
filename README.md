@@ -18,15 +18,16 @@ RedShift shopping website with admin panel and user menu.
 
    ### `cd page_RedShift`
 
-2. **Install npm:**
+2. **Install:**
 
    ### `npm install`
 
-3. **Replace .env.explame**
+   Install plug `MongoDB for VS Code` and add connection with mongo
+   (paste mongo uri)
 
-   - **Rename .env.explame to .env**
+   **Rename .env.explame to .env**
 
-   - **Paste your MONGO_URI**
+   **Paste your MONGO_URI to .env**
 
 ## 🏁 Run project 🏁
 
