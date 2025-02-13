@@ -1,0 +1,15 @@
+{
+    "scripts": {
+        "start": "cross-env NODE_ENV=production ts-node src/server.ts"
+    },
+    "devDependencies": {
+        "@types/cookie-parser": "^1.4.8",
+        "@types/cors": "^2.8.17",
+        "@types/node": "^22.10.1",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.7.2"
+    },
+    "dependencies": {
+        "cors": "^2.8.5"
+    }
+}

@@ -1,0 +1,33 @@
+.side-ads {
+    position: relative;
+    width: 100%;
+    height: 100%; 
+  
+    .side-ads-left,
+    .side-ads-right {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      width:200px; 
+      height:800px ;
+    }
+  
+    .side-ads-left {
+      left: 0;
+      background-color: #f4f4f4; 
+      padding: 10px; 
+    }
+  
+    .side-ads-right {
+      right: 0;
+      background-color: #f4f4f4; 
+      padding: 10px; 
+    }
+  
+    img {
+      max-width: 200px;
+      height: 800px;
+      object-fit: cover;
+    }
+  }
+  
